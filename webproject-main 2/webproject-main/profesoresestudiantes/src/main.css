@@ -1,0 +1,501 @@
+
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+
+}
+body {
+    background-image: url(img/fondo_papel_blanco_arte_35956_2379.webp)
+}
+body {
+  display: flex;
+  align-items: center;
+
+  background-color: #f5f5f5;
+}
+
+.bienvenido {
+  background-color:#072848;
+  height: 25%;
+  margin-bottom: 50px;
+  margin-top: -100px;
+
+  margin-left: -10%;
+  margin-right: -10%;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.title {
+  color: #f5f5f5;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+
+
+
+.form-signin {
+  max-width: 1080px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: 5px;
+  margin-top: -20px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 5px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin-top: 5px;
+}
+.boton {
+  color: orange;
+  box-shadow: rgb(109, 76, 15)10px;
+}
+.btn-primary {
+  margin-top: 50px;
+  background-color: orange;
+  padding: 10px;
+  border: transparent;
+  box-shadow: 5px 5px 0px rgb(217, 121, 4);
+}
+.btn-primary:hover {
+  background-color: rgb(217, 121, 4);
+  box-shadow: 0px 0px 0px;
+}
+
+
+
+.btn-secundary {
+
+  width: auto;
+  padding: 10px 18px;
+  background-color: #8d4705;
+  color: white;
+  border: none;
+  box-shadow: 5px 5px 0px rgb(71 39 0);
+}
+.btn-secundary:hover {
+  color: white;
+  background-color:  rgb(71, 39, 0);
+  box-shadow: 0px 0px 0px;
+
+}
+
+
+
+
+.dropdown {
+    min-width: 15em
+}
+.dropdown * {
+    box-sizing: border-box;
+}
+
+.select {
+    background: #f5f5f5;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px #2a2f3b solid;
+    border-radius: 0.5em;
+    padding: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.select-clicked {
+    border: 2px #26489a solid;
+    box-shadow: 0 0 0.8 #26489a;
+}
+
+.select:hover {
+    background: #323741;
+}
+.caret {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: solid #fff;
+    transition: 0.3s;
+}
+.caret-rotate {
+    transform: rotate(180deg);
+}
+
+.menu {
+    list-style: none;
+    padding: 0.2em 0.5em;
+    background: #323741;
+    border: 1px #363a43 solid;
+    box-shadow: 0 0.5 1em rgba (0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    color: #9fa5b5 ;
+    position: absolute;
+    top: 3em;
+    left: 50%;
+    width:  100%;
+    transform: translateX(-50%);
+    opacity: 0;
+    display: none;
+    transition: 0.2s;
+    z-index: 1;
+}
+
+.menu li {
+    padding: 0.7em 0.5em;
+    margin: 0.3em 0;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    background: #2a3d35;
+}
+
+.active {
+    background: #23242a;
+}
+
+.menu-open {
+    display: block;
+    opacity: 1;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+
+.perfil {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.check {
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item {
+
+    margin-top: -15%;
+    
+}
+.navlink {
+    margin-left: 90%;
+    margin-top: -40%;
+    border: transparent;
+    background-color: orange;
+    box-shadow: 2px 2px 0px rgb(217, 121, 4);   
+}
+.navlink:hover {
+  background-color: rgb(217, 121, 4);
+  box-shadow: 0px 0px 0px;
+  color: white;
+}
+.profile {
+    margin-left: 90%;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.angulo {
+  margin-top: 0;
+  margin-bottom: -120px;
+  color: white;
+}
+.atras {
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.angulo:hover {
+  background-color: orange;
+}
+.salir {
+  background-color: orange;
+  border: transparent;
+  box-shadow: 2px 2px 0px rgb(217, 121, 4);
+}
+.salir:hover {
+  background-color: rgb(217, 121, 4);
+  color: white;
+  box-shadow: 0px 0px 0px;
+}
+.tcolor {
+  color: c;
+  text-decoration: wavy;
+  text-transform: capitalize;
+  font-weight: bold;
+  height: 50px;
+}
+
+.facultad {
+  padding: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: x-large;
+}
+
+.siguiente {
+  font-size: 20px;
+  margin-left: 20%;
+  margin-right: -10px;
+  background-color: orange;
+  border: transparent;
+  box-shadow: 5px 5px 0px rgb(217, 121, 4);
+}
+.siguiente:hover {
+  background-color: rgb(217, 121, 4);
+  color: white;
+  box-shadow: 0px 0px 0px;
+}
+.editar {
+  margin-left: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Customize the label (the container) */
+.containerw {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.containerw input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.containerw:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containerw input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.containerw input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.containerw .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* Customize the label (the container) */
+.containerw {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.containerw input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.containerw:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.containerw input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.containerw input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.containerw .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.custom-select {
+  position: relative;
+  font-family: Arial;
+  align-items: center;
+  margin-left: 40%;
+  margin-bottom: 10%;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: rgb(7,40,72);
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent  rgb(91, 111, 127)transparent;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: rgb(62, 72, 80) ;
+  border-color: #23242a;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color:  rgb(32, 37, 41) ;
+}

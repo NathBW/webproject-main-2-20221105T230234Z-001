@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charser = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content=""IE=edge>
+    <meta name=""viewport content="width = device-width,
+    initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">"
+    <link rel="stylesheet" href="./main.css">
+    <link href="./registro.html">
+    <script src="./app/login.js" type="module"></script>
+</head>
+<body>
+    <main class="form-signin w-100 m-auto">
+
+        <form id="loginup-form">
+            
+            <div class="bienvenido">
+
+                <h1 class="title">¡BIENVENIDOS PROFESORES!</h1>
+
+            </div>
+          <div class="form-floating" id="login-form">
+            <input type="email" class="form-control" id="txtEmail" placeholder="name@example.com">
+            <label for="floatingInput">Correo Universitario</label>
+          </div>
+        
+        
+          <div class="form-floating" id="login-form">
+            <input type="password" class="form-control" id="txtPassword" placeholder="Password">
+            <label for="floatingPassword">Contraseña</label>
+          </div>
+        
+            <button class="w-100 btn btn-lg btn-primary" type="submit">
+              <!--<a href="./home.html">-->
+                Iniciar Sesión
+              <!--</a>-->  </button>
+        
+          <div class="boton">
+            <button class="w-100 btn btn-lg btn-primary" type="button" onclick="Registrar()">
+                Registrarse
+              </button>
+              <script>
+                function Registrar () {
+                window.location = "registro.html"}
+              </script> 
+          </div>
+        
+        </form>
+        </main>
+
+    <!--BOOSTRAP SCRIPTS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" 
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" 
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" 
+    crossorigin="anonymous"></script>
+   <!--TOSTIFY SCRIPTS-->
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>

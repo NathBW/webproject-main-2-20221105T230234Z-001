@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charser = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content=""IE=edge>
+    <meta name=""viewport content="width = device-width,
+    initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">"
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./modal.css">
+    <link href="./registro.html">
+    <script src="./main.js" type="module"></script>
+    <script src="./modal.js" type="module"></script>
+    <script src="./app/modalinfo.js" type="module"></script>
+</head>
+<body>
+    <main class="form-signin w-100 m-auto">
+
+            
+            <div class="bienvenido" style="margin-top: 0%">
+                <h1 class="title " >ARTES Y DISEÑO</h1>
+            </div>
+
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <div class="boton">
+                    <button class="navlink salir" type="button" onclick="atras()" style="margin-bottom: 10%;">
+                        Atrás
+                    </button>
+                    <script>
+                        function atras () {
+                        window.location = "informacion.html"}
+                    </script> 
+                    </div>
+                </li>
+
+            </ul>
+
+
+
+
+            <div class="carrerasartes">
+            <button class="button PRIMERO" onclick="document.getElementById('id01').style.display='block'">Arquitectura    +</button>
+
+            <div id="id01" class="modal">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                  <h1>Arquitectura</h1>
+                  <p id="oldtext">Nuestro programa de pregrado en Historia del Arte es pionero en la formación profesional de 
+                    historiadores del arte en Colombia. Combinamos el conocimiento sólido de la historia del arte occidental, 
+                    latinoamericano y colombiano, con la formación en museología y patrimonio. A través de nuestros convenios 
+                    con el Museo Colonial, el Museo Nacional, el Museo del Oro y los museos de la Red Cultural del Banco de la 
+                    República (MAMU, Casa de Moneda, Museo Botero), nuestros estudiantes podrán acceder a prácticas profesionales
+                     que enriquecerán su formación y brindarán valiosas experiencias. </p>
+                  <script>
+                    myspan = document.getElementById("oldtext")
+                    mytxt = document.createTextNode()
+                    myspan.appendChild(mytxt);
+                  </script>
+            
+                  <div class="clearfix">
+                    <button id="editar01" type="button" class="cancelbtn" onclick="editar()">Editar</button>
+                    <script>
+                      function editar () {
+                        
+                      }
+                    </script>
+                    <button type="button" class="deletebtn">Información del programa</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+
+
+            <button class="button" onclick="document.getElementById('id02').style.display='block'">Artes plásticas   +</button>
+            <div id="id02" class="modal">
+              <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                  <h1>Artes plásticas</h1>
+                  <p id="oldtext">El pregrado de Derecho de la Universidad Jorge Tadeo Lozano busca formar futuros abogados
+                     y abogadas para que tengan la solidez jurídica y las habilidades interdisciplinares para desempeñarse 
+                     con destreza en el ámbito laboral nacional e internacional. Como parte de la Facultad de Ciencias 
+                     Sociales, la formación impartida en el marco del Programa de Derecho busca que el conocimiento de la 
+                     normatividad nacional e internacional se complemente con el estudio de las Relaciones Internacionales y 
+                     la Ciencia Política. Este diferencial hace que las personas que culminan la carrera se destaquen por sus 
+                     capacidades de buscar soluciones jurídicas innovadoras que impacten de forma positiva a la sociedad. </p>
+                  <script>
+                    myspan = document.getElementById("oldtext")
+                    mytxt = document.createTextNode()
+                    myspan.appendChild(mytxt);
+                  </script>
+            
+                  <div class="clearfix">
+                    <button type="button" class="cancelbtn">Editar</button>
+                    <button type="button" class="deletebtn">Información del programa</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+
+
+
+
+
+
+            <button class="button" onclick="document.getElementById('id03').style.display='block'">Diseño gráfico  +</button>
+            <div id="id03" class="modal">
+              <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                  <h1>Diseño gráfico</h1>
+                  <p id="oldtext">El programa de Cine y Televisión de la Universidad Jorge Tadeo Lozano concibe al cine,
+                     la televisión y el audiovisual como un sector profesional en franco crecimiento y especialización. 
+                     Formamos profesionales integrales, con una comprensión transversal de los oficios del cine, con un 
+                     manejo riguroso de los aspectos tecnológicos y técnicos del oficio audiovisual, conocedores de las 
+                     dimensiones narrativas y técnicas del lenguaje cinematográfico, con un criterio amplio y diverso de 
+                     los contextos culturales, sociales y estéticos. Nos interesa promover el diálogo permanente entre 
+                     industria, creadores y academia para poder comprender las necesidades y oportunidades del medio
+                      profesional.</p>
+                  <script>
+                    myspan = document.getElementById("oldtext")
+                    mytxt = document.createTextNode()
+                    myspan.appendChild(mytxt);
+                  </script>
+            
+                  <div class="clearfix">
+                    <button type="button" class="cancelbtn">Editar</button>
+                    <button type="button" class="deletebtn">Información del programa</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+
+
+
+
+
+            <button class="button" onclick="document.getElementById('id04').style.display='block'">Diseño industrial  +</button>
+            <div id="id04" class="modal">
+              <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                  <h1>Diseño industrial </h1>
+                  <p id="oldtext">El Programa cuenta con acreditación internacional otorgada por la Sociedad 
+                    Interamericana de Prensa a través del Consejo Latinoamericano de Acreditación de la Educación en 
+                    Periodismo y Comunicación CLAEP. Somos pioneros en la formación de profesionales de la comunicación 
+                    y el periodismo y nuestros estudiantes son formados para desempeñarse en cualquiera de los campos de 
+                    la comunicación y el periodismo. El Programa cuenta con Re Acreditación de Alta calidad otorgada por 
+                    el Ministerio de Educación Nacional. </p>
+                  <script>
+                    myspan = document.getElementById("oldtext")
+                    mytxt = document.createTextNode()
+                    myspan.appendChild(mytxt);
+                  </script>
+            
+                  <div class="clearfix">
+                    <button type="button" class="cancelbtn">Editar</button>
+                    <button type="button" class="deletebtn">Información del programa</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <button class="button" onclick="document.getElementById('id05').style.display='block'">Fotografía  +</button>
+            <div id="id05" class="modal">
+              <span onclick="document.getElementById('id05').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                  <h1>Estudios literarios y edición </h1>
+                  <p id="oldtext">Nuestro pregrado en Estudios Literarios y Edición es el único en el país en donde el 
+                    trabajo editorial se define como parte sustancial del currículo y no como un énfasis electivo. Busca 
+                    una fusión equilibrada entre los Estudios literarios y el ejercicio editorial profesional. En este 
+                    sentido, los estudiantes del pregrado pueden ocupar cualquier cargo como editores, formular su propia 
+                    empresa editorial o dedicarse a la investigación en sentido estricto. Finalmente, el programa abre 
+                    campos como la gestión y promoción de la lectura, la gestión cultural y la investigación y creación 
+                    de material enfocado a los niños y jóvenes. Por otro lado, contiene una línea en edición crítica que 
+                    acerca al estudiante a una visión más académica del quehacer editorial.</p>
+                  <script>
+                    myspan = document.getElementById("oldtext")
+                    mytxt = document.createTextNode()
+                    myspan.appendChild(mytxt);
+                  </script>
+            
+                  <div class="clearfix">
+                    <button type="button" class="cancelbtn">Editar</button>
+                    <button type="button" class="deletebtn">Información del programa</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <button class="button ULTIMO" onclick="document.getElementById('id06').style.display='block'">Diseño interactivo  +</button>
+            <div id="id06" class="modal">
+              <span onclick="document.getElementById('id06').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                  <h1>Diseño interactivo </h1>
+                  <p id="oldtext">El programa de Relaciones Internacionales de la Universidad Jorge Tadeo Lozano busca 
+                    formar futuros profesionales para que tengan la creatividad y las habilidades interdisciplinares para 
+                    liderar transformaciones globales. Como parte de la Facultad de Ciencias Sociales, la formación 
+                    impartida en el marco del Programa de Relaciones Internacionales busca que el conocimiento de la realidad 
+                    internacional se complemente con el estudio del Derecho y la Ciencia Política. Este diferencial hace que las 
+                    personas que culminan la carrera se destaquen por sus capacidades de buscar soluciones innovadoras que impacten 
+                    de forma positiva a la sociedad.</p>
+                  <script>
+                    myspan = document.getElementById("oldtext")
+                    mytxt = document.createTextNode()
+                    myspan.appendChild(mytxt);
+                  </script>
+            
+                  <div class="clearfix">
+                    <button type="button" class="cancelbtn">Editar</button>
+                    <button type="button" class="deletebtn">Información del programa</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            </div>
+
+
+
+
+
+
+
+
+            
+            
+
+
+
+
+
+
+
+
+    
+        </main>
+
+    <!--BOOSTRAP SCRIPTS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" 
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" 
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
+
