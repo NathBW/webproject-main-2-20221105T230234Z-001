@@ -32,6 +32,12 @@ querySnapshot.forEach((doc) => {
 
       <div> ${dinfo.content}</div>
   </div>
+  <div class="gui">
+  <button class="guibtn">Design Thinking </button>
+
+  <div> Grupo para las personas que están interesadas en el UX y UI</div>
+</div>
+
   `
 // Close the dropdown menu if the user clicks outside of it
 
@@ -41,4 +47,5 @@ html += li
 guideList.innerHTML = html
 
 });
+
 

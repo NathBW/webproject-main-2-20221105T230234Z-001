@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./modal.css">
     <link href="./registro.html">
-    <script src="./main.js" type="module"></script>
+    <script src="./informa.js" type="module"></script>
     <script src="./modal.js" type="module"></script>
     <script src="./app/modalinfo.js" type="module"></script>
+    <script src="./informa.js" type="module"></script>
 </head>
 <body>
     <main class="form-signin w-100 m-auto">
@@ -46,29 +47,17 @@
 
             <div id="id01" class="modal">
               <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-              <form class="modal-content" action="/action_page.php">
+              <form class="modal-content" action="/action_page.php" id="arteform">
                 <div class="container">
                   <h1>Arquitectura</h1>
-                  <p id="oldtext">Nuestro programa de pregrado en Historia del Arte es pionero en la formación profesional de 
-                    historiadores del arte en Colombia. Combinamos el conocimiento sólido de la historia del arte occidental, 
-                    latinoamericano y colombiano, con la formación en museología y patrimonio. A través de nuestros convenios 
-                    con el Museo Colonial, el Museo Nacional, el Museo del Oro y los museos de la Red Cultural del Banco de la 
-                    República (MAMU, Casa de Moneda, Museo Botero), nuestros estudiantes podrán acceder a prácticas profesionales
-                     que enriquecerán su formación y brindarán valiosas experiencias. </p>
+                  <p type="input" id="oldtext">El programa de Arquitectura busca formar profesionales capaces de tener una visión integral a partir del dominio de los saberes universales y disciplinares que dan respuesta, desde el ejercicio del taller, a las preguntas asociadas con la construcción del hábitat humano. </p>
                   <script>
                     myspan = document.getElementById("oldtext")
-                    mytxt = document.createTextNode()
-                    myspan.appendChild(mytxt);
+
                   </script>
             
                   <div class="clearfix">
-                    <button id="editar01" type="button" class="cancelbtn" onclick="editar()">Editar</button>
-                    <script>
-                      function editar () {
-                        
-                      }
-                    </script>
-                    <button type="button" class="deletebtn">Información del programa</button>
+
                   </div>
                 </div>
               </form>
@@ -81,24 +70,14 @@
               <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
               <form class="modal-content" action="/action_page.php">
                 <div class="container">
-                  <h1>Artes plásticas</h1>
-                  <p id="oldtext">El pregrado de Derecho de la Universidad Jorge Tadeo Lozano busca formar futuros abogados
-                     y abogadas para que tengan la solidez jurídica y las habilidades interdisciplinares para desempeñarse 
-                     con destreza en el ámbito laboral nacional e internacional. Como parte de la Facultad de Ciencias 
-                     Sociales, la formación impartida en el marco del Programa de Derecho busca que el conocimiento de la 
-                     normatividad nacional e internacional se complemente con el estudio de las Relaciones Internacionales y 
-                     la Ciencia Política. Este diferencial hace que las personas que culminan la carrera se destaquen por sus 
-                     capacidades de buscar soluciones jurídicas innovadoras que impacten de forma positiva a la sociedad. </p>
+                  <h1 id="nombre">Artes plásticas</h1>
+                  <p id="oldtext">"El Programa de Artes Plásticas de Utadeo pretende formar artistas, enriqueciendo las destrezas técnicas y oficios de las artes, y potenciando el pensamiento creador a partir de la movilización de la percepción, la sensibilidad y la imaginación. El Programa de Artes Plásticas de Utadeo encuadra esa filosofía en diversas opciones: Plástica Visual, Plástica en Medios, Plástica Espacial y Plástica Social, la cual es distintiva de este programa. Esta área pretende articular lo artístico a distintas dimensiones de lo social y lo cultural. Los estudios se desarrollan a lo largo de 4 años por el sistema de créditos." </p>
                   <script>
                     myspan = document.getElementById("oldtext")
-                    mytxt = document.createTextNode()
-                    myspan.appendChild(mytxt);
+
                   </script>
             
-                  <div class="clearfix">
-                    <button type="button" class="cancelbtn">Editar</button>
-                    <button type="button" class="deletebtn">Información del programa</button>
-                  </div>
+
                 </div>
               </form>
             </div>
@@ -114,25 +93,14 @@
               <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
               <form class="modal-content" action="/action_page.php">
                 <div class="container">
-                  <h1>Diseño gráfico</h1>
-                  <p id="oldtext">El programa de Cine y Televisión de la Universidad Jorge Tadeo Lozano concibe al cine,
-                     la televisión y el audiovisual como un sector profesional en franco crecimiento y especialización. 
-                     Formamos profesionales integrales, con una comprensión transversal de los oficios del cine, con un 
-                     manejo riguroso de los aspectos tecnológicos y técnicos del oficio audiovisual, conocedores de las 
-                     dimensiones narrativas y técnicas del lenguaje cinematográfico, con un criterio amplio y diverso de 
-                     los contextos culturales, sociales y estéticos. Nos interesa promover el diálogo permanente entre 
-                     industria, creadores y academia para poder comprender las necesidades y oportunidades del medio
-                      profesional.</p>
+                  <h1 id="nombre">Diseño gráfico</h1>
+                  <p id="oldtext">Con cincuenta años de trayectoria, el Programa de Diseño Gráfico de Utadeo se enfoca en la formación de profesionales competentes en el desarrollo integral e innovador de propuestas y proyectos insertos en el campo de la comunicación gráfica y las mediaciones visuales ancladas en la sociedad y en entornos vitales del mundo contemporáneo. Formamos diseñadores que piensan, ven, leen, cuestionan, imaginan e interpretan la realidad del mundo -diversa y disímil- para transformarlo, para actuar desde él y en él.</p>
                   <script>
                     myspan = document.getElementById("oldtext")
-                    mytxt = document.createTextNode()
-                    myspan.appendChild(mytxt);
+
                   </script>
             
-                  <div class="clearfix">
-                    <button type="button" class="cancelbtn">Editar</button>
-                    <button type="button" class="deletebtn">Información del programa</button>
-                  </div>
+
                 </div>
               </form>
             </div>
@@ -147,23 +115,14 @@
               <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;</span>
               <form class="modal-content" action="/action_page.php">
                 <div class="container">
-                  <h1>Diseño industrial </h1>
-                  <p id="oldtext">El Programa cuenta con acreditación internacional otorgada por la Sociedad 
-                    Interamericana de Prensa a través del Consejo Latinoamericano de Acreditación de la Educación en 
-                    Periodismo y Comunicación CLAEP. Somos pioneros en la formación de profesionales de la comunicación 
-                    y el periodismo y nuestros estudiantes son formados para desempeñarse en cualquiera de los campos de 
-                    la comunicación y el periodismo. El Programa cuenta con Re Acreditación de Alta calidad otorgada por 
-                    el Ministerio de Educación Nacional. </p>
+                  <h1 id="nombre">Diseño industrial </h1>
+                  <p id="oldtext">El Programa de Diseño Industrial promueve como principios de su formación la cultura abierta al diálogo reflexivo y crítico, el intercambio de ideas y orientaciones teóricas, la equidad y la formación integral, a través de elementos mediacionales (pedagogía, didáctica y maestro) que jalonen los procesos psicológicos superiores entendidos como el conjunto de operaciones mentales entre los cuales se destaca el desarrollo del pensamiento crítico, analítico, sintético y propositivo, subordinados al proceso creativo. </p>
                   <script>
                     myspan = document.getElementById("oldtext")
-                    mytxt = document.createTextNode()
-                    myspan.appendChild(mytxt);
+
                   </script>
             
-                  <div class="clearfix">
-                    <button type="button" class="cancelbtn">Editar</button>
-                    <button type="button" class="deletebtn">Información del programa</button>
-                  </div>
+
                 </div>
               </form>
             </div>
@@ -182,25 +141,13 @@
               <span onclick="document.getElementById('id05').style.display='none'" class="close" title="Close Modal">&times;</span>
               <form class="modal-content" action="/action_page.php">
                 <div class="container">
-                  <h1>Estudios literarios y edición </h1>
-                  <p id="oldtext">Nuestro pregrado en Estudios Literarios y Edición es el único en el país en donde el 
-                    trabajo editorial se define como parte sustancial del currículo y no como un énfasis electivo. Busca 
-                    una fusión equilibrada entre los Estudios literarios y el ejercicio editorial profesional. En este 
-                    sentido, los estudiantes del pregrado pueden ocupar cualquier cargo como editores, formular su propia 
-                    empresa editorial o dedicarse a la investigación en sentido estricto. Finalmente, el programa abre 
-                    campos como la gestión y promoción de la lectura, la gestión cultural y la investigación y creación 
-                    de material enfocado a los niños y jóvenes. Por otro lado, contiene una línea en edición crítica que 
-                    acerca al estudiante a una visión más académica del quehacer editorial.</p>
+                  <h1 id="nombre">Estudios literarios y edición </h1>
+                  <p id="oldtext">Nuestro pregrado en Estudios Literarios y Edición es el único en el país en donde el trabajo editorial se define como parte sustancial del currículo y no como un énfasis electivo. Busca una fusión equilibrada entre los Estudios literarios y el ejercicio editorial profesional. En este sentido, los estudiantes del pregrado pueden ocupar cualquier cargo como editores, formular su propia empresa editorial o dedicarse a la investigación en sentido estricto.</p>
                   <script>
                     myspan = document.getElementById("oldtext")
-                    mytxt = document.createTextNode()
-                    myspan.appendChild(mytxt);
+
                   </script>
-            
-                  <div class="clearfix">
-                    <button type="button" class="cancelbtn">Editar</button>
-                    <button type="button" class="deletebtn">Información del programa</button>
-                  </div>
+
                 </div>
               </form>
             </div>
@@ -220,24 +167,15 @@
               <span onclick="document.getElementById('id06').style.display='none'" class="close" title="Close Modal">&times;</span>
               <form class="modal-content" action="/action_page.php">
                 <div class="container">
-                  <h1>Diseño interactivo </h1>
-                  <p id="oldtext">El programa de Relaciones Internacionales de la Universidad Jorge Tadeo Lozano busca 
-                    formar futuros profesionales para que tengan la creatividad y las habilidades interdisciplinares para 
-                    liderar transformaciones globales. Como parte de la Facultad de Ciencias Sociales, la formación 
-                    impartida en el marco del Programa de Relaciones Internacionales busca que el conocimiento de la realidad 
-                    internacional se complemente con el estudio del Derecho y la Ciencia Política. Este diferencial hace que las 
-                    personas que culminan la carrera se destaquen por sus capacidades de buscar soluciones innovadoras que impacten 
-                    de forma positiva a la sociedad.</p>
+                  <h1 id="nombre">Diseño interactivo </h1>
+                  <p id="oldtext">En el programa de Diseño Interactivo formamos profesionales que contribuyen a la construcción permanente de la teoría y la práctica propias del medio digital. Buscamos que nuestros egresados tengan una incidencia significativa en la industria de los contenidos digitales, en los ámbitos productivo, académico e investigativo.
+
+                    Nuestro programa forma profesionales competitivos, creativos, comprometidos y propositivos que saben adaptarse a la evolución del medio digital, a través del desarrollo de productos interactivos, en línea con las transformaciones sociales y tecnológicas.</p>
                   <script>
                     myspan = document.getElementById("oldtext")
-                    mytxt = document.createTextNode()
-                    myspan.appendChild(mytxt);
+
                   </script>
-            
-                  <div class="clearfix">
-                    <button type="button" class="cancelbtn">Editar</button>
-                    <button type="button" class="deletebtn">Información del programa</button>
-                  </div>
+
                 </div>
               </form>
             </div>
