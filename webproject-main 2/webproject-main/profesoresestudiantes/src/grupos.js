@@ -32,6 +32,8 @@ querySnapshot.forEach((doc) => {
 
       <div> ${dinfo.content}</div>
   </div>
+  <br>
+  <br>
   <div class="gui">
   <button class="guibtn">Design Thinking </button>
 

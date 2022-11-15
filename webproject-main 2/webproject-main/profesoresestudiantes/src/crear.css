@@ -199,3 +199,11 @@ input[type=text], input[type=password] {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+.guibtn {
+  background-color: rgba(141, 71, 5, 1);
+}
+
+.guibtn:hover {
+  background-color: rgba(141, 71, 5, 1);
+}
