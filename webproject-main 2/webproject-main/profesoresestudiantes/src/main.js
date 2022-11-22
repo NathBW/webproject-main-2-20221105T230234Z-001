@@ -72,11 +72,17 @@ createForm.addEventListener('submit', async (e) => {
     title: createForm['title'].value,
     content: createForm['Content'].value
   })
-  try {
-    window.location = 'home.html'
-  } catch {
-    showMessage('No se pudo crear el grupo, intente nuevamente', 'error')
+  if (document.querySelector('#Content') === null){
+    showMessage('Tiene que colocar una descripción', 'error')
   }
+  else {
+    try {
+      window.location = 'home.html'
+    } catch {
+      showMessage('No se pudo crear el grupo, intente nuevamente', 'error')
+    }
+  }
+
 
 
 
